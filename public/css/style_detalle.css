@@ -1,0 +1,216 @@
+main {
+    background-color: beige;
+    width: 1594px;
+    margin: 0px auto;
+}
+
+header {
+    color: #388f16;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.men {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.login {
+    padding: 0px 0px 0px 0px;
+    border-radius: 50%;
+}
+
+.d {
+    font-size: 140%;
+    padding: 0px 0px 0px 355px;
+    color: #388f16;
+}
+
+.m {
+    font-size: 140%;
+    margin: 0px 600px 0px 0px;
+    padding: 0px 275px 0px 0px;
+
+}
+
+.login a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+.nombre a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.lupa {
+    padding: 0px 0px 0px 20px;
+}
+
+.lupa a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+.co {
+    padding: auto;
+}
+
+.co a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+.salir a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+.car a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+hr {
+    border: #388f16 solid 1px;
+}
+
+.tabla2 td {
+    padding: 0px 100px 0px 100px;
+}
+
+.tabla2 td a {
+    text-decoration: none;
+    color: #388f16;
+}
+
+.tabla2 td a:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 2px #388f16;
+}
+
+/*Fin Header*/
+
+.todo {
+    width: 100%;
+    max-width: 1500px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.todo .articulo {
+    width: 500px;
+    height: 465px;
+    border-radius: 8px;
+
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+
+}
+
+
+
+.todo .articulo img {
+    width: 450px;
+    height: 400px;
+}
+
+.todo .articulo h4 {
+    font-weight: 1000;
+}
+
+.todo .articulo p {
+    box-shadow: 0 2px #388f16;
+    padding: 0 1rem;
+    font-size: 38px;
+    font-weight: 300;
+}
+
+/*Boton comprar*/
+.comprar {
+    background-color: #6c6d6c2c;
+    border-radius: 10px;
+    width: 500px;
+    height: 465px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+
+
+}
+
+.comprar h3 {
+
+    margin-top: 30px;
+    text-align: center;
+    color: #6c6d6c;
+}
+
+.comprar button {
+    float: top;
+    margin-top: 30%;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    border-radius: 12%;
+    border: none;
+    background-color: #388f16;
+    color: white;
+    cursor: pointer;
+}
+
+.precio {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 23%;
+    border-bottom: 2px solid #388f16;
+    padding: 0px 100px 0px 100px;
+}
+
+.precio td {
+    margin-left: 400px;
+}
+
+
+.tabla3 td {
+    padding: 0px 280px 10px 200px;
+}
+
+.d a {
+    text-decoration: none;
+    color:#388f16;
+}
+
+.m a {
+    text-decoration: none;
+    color:#388f16;
+}
+
+.foto1 {
+    width: 90px;
+}

@@ -1,0 +1,224 @@
+clear {
+    clear: both;
+}
+
+main {
+    background-color: beige;
+    width: 1594px;
+    margin: 0px auto;
+}
+
+header {
+    color: #388f16;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.men {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.login {
+    padding: 0px 0px 0px 0px;
+    border-radius: 50%;
+}
+
+.d {
+    font-size: 140%;
+    padding: 0px 0px 0px 355px;
+    color: #388f16;
+}
+
+.m {
+    font-size: 140%;
+    margin: 0px 600px 0px 0px;
+    padding: 0px 275px 0px 0px;
+
+}
+
+.login a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+.nombre a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.lupa {
+    padding: 0px 0px 0px 20px;
+}
+
+.lupa a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+.co {
+    padding: auto;
+}
+
+.co a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+.salir a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+.car a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+hr {
+    border: #388f16 solid 1px;
+}
+
+.tabla2 td {
+    padding: 0px 100px 0px 100px;
+}
+
+.tabla2 td a {
+    text-decoration: none;
+    color: #388f16;
+}
+
+.tabla2 td a:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 2px #388f16;
+}
+
+.lo-nuevo {
+    margin: 100px 0px 0px 600px;
+    border: rgb(16, 120, 54) solid 4px;
+    border-left: #f1f1f100 solid 4px;
+    border-right: rgba(255, 255, 255, 0) solid 4px;
+    padding: 30px 20px 30px 20px;
+}
+
+.lo-nuevo01 a {
+    font-size: 150%;
+    text-decoration: none;
+    color: #388f16;
+}
+
+.art {
+    display: flex;
+    flex-direction: column;
+}
+
+.art div {
+
+    flex-grow: 1;
+}
+
+.art div img {
+
+    width: 250px;
+    height: 210px;
+}
+
+/*articulos*/
+.catalogo-f {
+    width: 100%;
+    max-width: 2000px;
+    height: 500px;
+    display: contents;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.catalogo-f .ropa {
+
+    width: 450px;
+    height: 466px;
+    border-radius: 8px;
+    box-shadow: 0 2px #388f16;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.catalogo-f .ropa:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 20px black;
+}
+
+.catalogo-f .ropa img {
+    width: 250px;
+    height: 210px;
+}
+
+.catalogo-f .ropa h4 {
+    margin-top: 10%;
+    font-weight: 900;
+}
+
+.catalogo-f .ropa p {
+    padding: 0 1rem;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.catalogo-f .ropa a {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #388f16;
+}
+
+.todo {
+
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 56px;
+    ;
+    display: flex;
+}
+
+html {
+    margin: -8px 0px 0px 0px;
+}
+
+.foto1 {
+    width: 90px;
+}
+
+.d a {
+    text-decoration: none;
+    color:#388f16;
+}
+
+.m a {
+    text-decoration: none;
+    color:#388f16;
+}

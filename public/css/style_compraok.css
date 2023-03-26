@@ -1,0 +1,178 @@
+main {
+    background-color: beige;
+    width: 1594px;
+    margin: 0px auto;
+}
+.clear {
+    clear: both;
+}
+
+header {
+    color: #388f16;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.men {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.login {
+    padding: 0px 0px 0px 0px;
+    border-radius: 50%;
+}
+
+.d {
+    font-size: 140%;
+    padding: 0px 0px 0px 355px;
+    color: #388f16;
+}
+
+.m {
+    font-size: 140%;
+    margin: 0px 600px 0px 0px;
+    padding: 0px 275px 0px 0px;
+
+}
+
+.login a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+.nombre a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.lupa {
+    padding: 0px 0px 0px 20px;
+}
+
+.lupa a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+.co {
+    padding: auto;
+}
+
+.co a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+.salir a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+.car a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+hr {
+    border: #388f16 solid 1px;
+}
+
+.tabla2 td {
+    padding: 0px 100px 0px 100px;
+}
+
+.tabla2 td a {
+    text-decoration: none;
+    color: #388f16;
+}
+
+.tabla2 td a:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 2px #388f16;
+}
+
+/*FIN HEADER*/
+
+.comprar {
+    border: #388f16 solid 5px;
+    background-color: #00000063;
+    color: aliceblue;
+    border-radius: 30px;
+    width: 861px;
+    height: 500px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    margin-left: 23%;
+}
+
+.comprar h1 {
+    margin-top: 15%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.comprar button {
+    border: none;
+    border-radius: 15px;
+    background-color: #388f16;
+    padding: 15px 25px 15px 25px;
+    margin-left: 152px;
+
+}
+
+.comprar button a {
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navidad{
+    float: right;
+    margin-right: -50px;
+}
+
+h2 {
+    margin-top: 43px;
+    margin-left: 107px;
+}
+html {
+    margin: -8px 0px 0px 0px;
+}
+
+.d a {
+    text-decoration: none;
+    color:#388f16;
+}
+
+.m a {
+    text-decoration: none;
+    color:#388f16;
+}
+
+.foto1 {
+    width: 90px;
+}

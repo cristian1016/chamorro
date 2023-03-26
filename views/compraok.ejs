@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>T I E N D A</title>
+  <link rel="shortcut icon" href="/public/img/default.png" type="image/x-icon">
+  <link rel="stylesheet" href="/public/css/style_compraok.css">
+  <style>
+    
+  </style>
+</head>
+
+<main>
+  <body>
+    <header>
+      <table>
+        <td class="lupa"><a href="./index.html">BUSCAR</a></td>
+        <td class="car"><a href="./index.html">CARRITO</a></td>
+
+
+
+        <td class="d"><a href="/">D E F A U L T H</a></td>
+        <td><a href="/"><img class="foto1" src="/public/img/logo.png" alt="logo"/></a></td>
+        <td class="m"><a href="/">M E M B E R S</a></td>
+        <td class="co">
+          <%if (!nombres) { %>
+            <a class="registro" href="/interfaz-registro">Registro</a>
+            <% } %>
+        </td>
+
+        <td class="co">
+          <%if (nombres ) { %>
+            <a class="nav-link" href="#"><strong>
+                <%= nombres %>
+              </strong></a>
+            <% } %>
+        </td>
+
+        <td class="salir">
+          <%if (nombres) { %>
+            <a href="/logout">SALIR</a>
+            <% } %>
+        </td>
+
+        <td class="login">
+          <%if (!nombres) { %>
+            <a class="interfazlogin" href="/interfaz-login">Login</a>
+            <% } %>
+        </td>
+
+
+
+        <div class="clear"></div>
+      </table>
+      <hr />
+      <table class="tabla2">
+        <td><a href="/tienda">TIENDA</a></td>
+        <td><a href="#">BONOS</a></td>
+        <td><a href="#">DONACIONES</a></td>
+        <td><a href="#">VENDER</a></td>
+        <td><a href="#">CATALOGO</a></td>
+      </table>
+
+      <hr />
+    </header>
+
+
+
+    <div class="comprar">
+      <h1>Gracias señor@ <%= nombres %> por comprar en nuestra tienda. 
+      <br> Su artículo está en camino. </h1>
+      <img src="/public/img/logodefaulthmembersnavidadrojo.png" alt="logo" class="navidad">
+      <div class="cle"></div>
+      <button><a href="/tienda">Regresar a Tienda</a></button>
+
+      <h2>¡Feliz Navidad te desea D E F A U L T H | M E M B E R S! </h2>
+
+    </div>
+  </body>
+</main>
+
+</html>

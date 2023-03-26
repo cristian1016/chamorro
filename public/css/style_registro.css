@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Roboto:ital,wght@1,300&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .comunidad {
+            color: #00a851;
+            font-weight: bold"
+
+        }
+
+        .logo {
+            width: 165px;
+            margin-bottom: -56px;
+        }
+
+        .form {
+            background-color: rgba(10, 9, 9, 0.651);
+            padding: 3px;
+            position: relative;
+        }
+
+
+        h1 {
+            font-size: 2rem;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        .comunidad {
+            margin-top: 0px;
+            color: #ffffff;
+        }
+
+        input[type=submit] {
+            padding: 12px;
+            color: white;
+            background-color: #149b1f;
+            border-radius: 5px;
+            position: relative;
+            margin-left: 350px;
+            border: none;
+            font-size: 15px;
+            cursor: pointer;
+            margin-left: 360px;
+        }
+
+
+        /*CRISTIAN*/
+        .registro {
+
+
+            top: 50%;
+            left: 50%;
+
+
+            border-radius: 10px;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .registro {
+            display: contents;
+        }
+
+        .registro .digitar {
+
+            display: contents;
+        }
+
+        .registro .digitar input {
+            position: relative;
+            padding: 9px;
+            width: 320px;
+            border: none;
+            outline: none;
+            background: transparent;
+
+            border-bottom: 1px solid white;
+            font-family: sans-serif;
+            transition: all 0.25s;
+            color: rgb(51, 255, 0);
+            padding: 50px 0px 0px 0px;
+            text-align: center;
+            margin-left: 60px;
+            margin-top: 5px;
+        }
+
+        .registro .digitar label {
+
+            position: absolute;
+
+
+            padding: 10px;
+            color: white;
+            pointer-events: none;
+            margin-left: -240px;
+            transition: .5s;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+        }
+
+
+        .registro .digitar :focus~label {
+
+            color: rgb(51, 136, 35);
+            font-size: 18px;
+
+        }
+
+
+
+
+        /*FIN CRISTIAN*/
+
+        p {
+            font-size: 1.3rem;
+            font-family: sans-serif;
+            text-align: center;
+            position: relative;
+            color: white;
+            padding-top: 20px;
+        }
+
+        .frase {
+            font-style: oblique;
+        }
+
+        .link {
+            color: rgb(29, 70, 29);
+            text-decoration: none;
+            position: relative;
+        }
+
+        .link:hover {
+            color: rgb(250, 247, 247);
+            font-size: 1.5rem;
+            font-weight: 700;
+            position: relative;
+        }
+
+        /*RESPONSIVE*/
+        .form {
+
+
+            margin: auto;
+            width: 800px;
+            height: 830px;
+            margin-top: 55px;
+            padding: 10px;
+            border-radius: 30px;
+            margin-bottom: 120px;
+        }
+
+
+        video {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: fixed;
+        }
+
+        .capa {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: auto;
+            height: 100%;
+            background-color: #1c1c1d00;
+            opacity: 0.5;
+            mix-blend-mode: overlay;
+        }
+
+        input:-webkit-autofill,
+        input:-webkit-autofill:focus {
+            transition: background-color 600000s 0s, color 600000s 0s;
+        }
+
+        .comunity {
+            margin-left: 37px;
+            padding-top: 20px;
+        }
+
+        .inicio {
+            margin-left: 35px;
+            padding-top: 20px;
+        }

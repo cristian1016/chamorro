@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/public/img/default.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="/public/css/style_index.css">
+    <title>D E F A U L T H | M E M B E R S</title>
+  </head>
+
+
+  <body>
+    <main>
+      <header>
+        <table>
+            <td class="lupa"><a href="./index.html">BUSCAR</a></td>
+            <td class="car"><a href="./index.html">CARRITO</a></td>
+         
+
+            <td class="d"><a href="/">D E F A U L T H</a></td>
+            <td><a href="/"><img class="foto1" src="/public/img/logo.png" alt="logo"/></a></td>
+            <td class="m"><a href="/">M E M B E R S</a></td>
+            
+            <td class="co">
+              <%if (!nombres) { %>
+              <a class="registro" href="/interfaz-registro">Registro</a>
+              <% } %>
+            </td>
+  
+              <td class="co">
+                <%if (nombres ) { %>
+                <a class="nav-link" href="#"><strong><%= nombres %></strong></a>
+                <% } %>
+              </td>
+
+              <td class="salir">
+                <%if (nombres) { %>
+                <a href="/logout">SALIR</a>
+                <% } %>
+              </td>
+
+              <td class="login">
+                <%if (!nombres) { %>
+                <a class="interfazlogin" href="/interfaz-login">Login</a>
+                <% } %>
+              </td>
+              
+            
+          
+          <div class="clear"></div>
+        </table>
+        <hr />
+        <table class="tabla2">
+          <td><a href="/tienda">TIENDA</a></td>
+          <td><a href="#">BONOS</a></td>
+          <td><a href="#">DONACIONES</a></td>
+          <td><a href="#">VENDER</a></td>
+          <td><a href="#">CATALOGO</a></td>
+        </table>
+
+        <hr />
+      </header>
+
+      <img
+        class="men"
+        src="/public/img/imagen-central.png"
+        alt="ima"
+        width="1300"
+      />
+
+      <table class="lo-nuevo">
+        <td class="lo-nuevo01"><a href="">LO NUEVO - PUBLICACIONES</a></td>
+      </table>
+      <table class="mujer">
+        <td class="mujer01"><a href="">MUJER</a></td>
+      </table>
+      <br /><br />
+
+      <div class="catalogo-f">
+        <div class="ropa">
+          <img src="../public/img/saco-f.jpg" alt="" />
+          <h4></h4>
+          <p>$ 35.000</p>
+          <a href="#">Leer mas</a>
+        </div>
+        <div class="ropa">
+          <img src="../public/img/vestido-f.webp" alt="" />
+          <h4>VESTIDO</h4>
+          <p>$ 35.000</p>
+          <a href="#">Leer mas</a>
+        </div>
+        <div class="ropa">
+          <img src="../public/img/blusa-f.jpg" alt="" />
+          <h4>BLUSA</h4>
+          <p>$ 35.000</p>
+          <a href="#">Leer mas</a>
+        </div>
+        <div class="ropa">
+          <img src="../public/img/pantalon-f.webp" alt="" />
+          <h4>PANTALON</h4>
+          <p>$ 35.000</p>
+          <a href="#">Leer mas</a>
+        </div>
+      </div>
+
+      <br /><br />
+
+      <table class="hombre">
+        <td class="hombre01"><a href="">HOMBRE</a></td>
+      </table>
+      <br /><br />
+
+      <div class="catalogo-m">
+        <div class="ropa-m">
+          <img src="../public/img/saco-m.webp" alt="" />
+          <h4>SACO</h4>
+          <p>50.000</p>
+          <a href="#">Leer mas</a>
+        </div>
+        <div class="ropa-m">
+          <img src="../public/img/tennis1-m.webp" alt="" />
+          <h4>TENNIS</h4>
+          <p>30.000</p>
+          <a href="#">Leer mas</a>
+        </div>
+        <div class="ropa-m">
+          <img src="../public/img/pantalon-m.jpg" alt="" />
+          <h4>PANTALON</h4>
+          <p>55.000</p>
+          <a href="#">Leer mas</a>
+        </div>
+        <div class="ropa-m">
+          <img src="../public/img/playera-m.jpg   " alt="" />
+          <h4>PLAYERA</h4>
+          <p>25.000</p>
+          <a href="#">Leer mas</a>
+        </div>
+      </div>
+
+      <table class="tabla3">
+        <td></td>
+      </table>
+      <footer>
+      <div class="redes">
+      <div class="contactos">
+       <a href="https://www.instagram.com/defaulthmembers_/"><img src="../public/img/insta.png" alt="insta" width="50"></a>
+      <a href=""> <img src="../public/img/whatsapp-logo-11.png" alt="what" width="55"></a>
+      <a href="https://www.facebook.com/profile.php?id=100088520927697&is_tour_dismissed=true"> <img src="../public/img/Facebook_f_logo_(2019).svg.webp" alt="face" width="50 "></a>
+      </div>
+      </div>
+      
+      
+      </footer>
+    </main>
+    
+  </body>
+</html>
